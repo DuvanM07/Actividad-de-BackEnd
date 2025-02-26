@@ -1,0 +1,26 @@
+{
+  "name": "activity",
+  "version": "1.0.0",
+  "description": "Actividad de backend",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/DuvanM07/Actividades.git"
+  },
+  "keywords": [
+    "halo"
+  ],
+  "author": "Jair Duvan Coba Medina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DuvanM07/Actividades/issues"
+  },
+  "homepage": "https://github.com/DuvanM07/Actividades#readme",
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongoose": "^8.10.1"
+  }
+}

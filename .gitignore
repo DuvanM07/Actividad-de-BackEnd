@@ -1,0 +1,88 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Logs
+logs/
+*.log
+
+# Dependency directories
+jspm_packages/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDEs and editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build directories
+dist/
+build/
+out/
+
+# Temporary files
+tmp/
+temp/
+
+# Coverage directories
+coverage/
+
+# Miscellaneous
+*.bak
+*.tmp
+*.old
+*.orig
+*.rej
+
+# TypeScript
+*.tsbuildinfo
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Ruby
+*.gem
+log/
+tmp/
+*.rbc
+*.rbenv-vars
+.tags*
+
+# PHP
+vendor/
+
+# Go
+bin/
+*.exe
+*.test
+*.out
+
+# Rust
+target/
+
+# JetBrains
+*.iml
