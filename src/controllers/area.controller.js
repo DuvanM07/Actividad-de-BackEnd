@@ -1,5 +1,5 @@
 const AreaModel = require( '../models/areas.model' );
-const {dbDeleteAreaById, dbUpdateAreaById, dbGetAreaById} = require( '../services/areas.service' )
+const {dbDeleteAreaById, dbUpdateAreaById, dbGetAreaById, dbInsertArea} = require( '../services/areas.service' )
 
 
 async function createArea( req, res ) {

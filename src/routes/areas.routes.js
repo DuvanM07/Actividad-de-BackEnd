@@ -1,8 +1,8 @@
 // const express = require( 'express');
 const express = require( 'express');
-const { createArea, getAreaById, deleteAreaById, updateAreaById } = require('../controllers/area.controller');
+const { getAreaById, deleteAreaById, updateAreaById, createArea } = require('../controllers/area.controller');
 
-const router = express.Router;
+const router = express.Router()
 
 router.post( '/', createArea);
 
