@@ -11,6 +11,10 @@ const areaSchema = new mongoose.Schema({
         type: String,
         trim: true
     },
+    salario: {
+        type: String,
+        trim: true
+    }
 },{
     timestamps: true,
     versionKey: false

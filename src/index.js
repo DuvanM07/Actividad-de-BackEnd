@@ -11,6 +11,8 @@ app.use( express.json() );
 
 app.use( '/api/areas', require( './routes/areas.routes'));
 
+app.use( '/api/empleados', require( 'ruta'));
+
 // app.use( '/api/empleados', require( './routes/'))
 
 app.listen( 3000, function() {
